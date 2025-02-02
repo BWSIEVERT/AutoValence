@@ -22,7 +22,7 @@
 ## Technologies
 
 - **Frontend:** React, Vite
-- **Backend:** _(To be implemented as per your project requirements)_
+- **Backend:** _TBD_
 - **Data Integration:** APIs from Carfax, AutoCheck, and other market databases
 - **AI & Analytics:** Custom algorithms for market intelligence, depreciation forecasting, and sales probability analysis
 
