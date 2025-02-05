@@ -1,40 +1,37 @@
-import { useState } from "react";
+// import { useState } from "react";
 import "./Navbar.css";
+import { CgMenu } from "react-icons/cg";
 
 function Navbar() {
-  const [isOpen, setIsOpen] = useState(false);
+  //   const [isOpen, setIsOpen] = useState(false);
 
-  const toggleMenu = () => {
-    setIsOpen(!isOpen);
-  };
+  // const toggleMenu = () => {
+  //   setIsOpen(!isOpen);
+  // };
 
   return (
     <header>
-      <nav className="navigation" aria-label="Main Navigation">
-        <h1 className="brand-name">AutoValence</h1>
-        <button
-          className="nav-toggle"
-          aria-expanded={isOpen}
-          aria-controls="primary-menu"
-          onClick={toggleMenu}
-        >
-          <span className="sr-only">Menu</span>
-          &#9776;
-        </button>
-        <ul id="primary-menu" className={`nav-menu ${isOpen ? "active" : ""}`}>
+      <nav className="navigation">
+        <h1 className="branding-name">
+          <a href="/">AutoValence</a>
+        </h1>
+        <ul className="nav-links">
           <li>
             <a href="/home">Home</a>
           </li>
           <li>
-            <a href="/about">About</a>
+            <a href="/home">Services</a>
           </li>
           <li>
-            <a href="/services">Services</a>
+            <a href="/home">About</a>
           </li>
           <li>
-            <a href="/contact">Contact</a>
+            <a href="/home">Contact</a>
           </li>
         </ul>
+        <div className="icon-container">
+          <CgMenu />
+        </div>
       </nav>
     </header>
   );
