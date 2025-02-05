@@ -56,8 +56,8 @@
 
    ## Contributing
 
-   Contributions are welcome! Please for the repository and submit a pull request. For major changes, please open an issue first to tdiscuss what you would like to change.
+   Contributions are welcome! For major changes, please open an issue first to discuss what you would like to change.
 
    ## License
 
-   Distributed under the MIT license. See **_LICENSE_** for mor information.
+   Distributed under the MIT license. See **_LICENSE_** for more information.
