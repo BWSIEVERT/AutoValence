@@ -8,6 +8,7 @@ import {
   RedirectToSignIn,
 } from "@clerk/clerk-react";
 import Dashboard from "./Components/Dashboard";
+import OrgPage from "./Components/OrgPage";
 
 function App() {
   const FallbackRoute = () => {
@@ -44,6 +45,15 @@ function App() {
             <SignedOut>
               <RedirectToSignIn />
             </SignedOut>
+          </>
+        }
+      />
+
+      <Route
+        path="/organization"
+        element={
+          <>
+            <OrgPage />
           </>
         }
       />

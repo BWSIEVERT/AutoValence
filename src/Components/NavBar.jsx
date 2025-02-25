@@ -8,7 +8,10 @@ function Navbar() {
           <div className="title_container">
             <h1>AutoValence</h1>
           </div>
-          <div className="clerk_profile_btn">
+          <div className="btn_container">
+            <a className="org_link" href="/organization">
+              Organization
+            </a>
             <UserButton />
           </div>
         </nav>
