@@ -9,6 +9,9 @@ function Navbar() {
             <h1>AutoValence</h1>
           </div>
           <div className="btn_container">
+            <a className="dashboard_link" href="/">
+              Dashboard
+            </a>
             <a className="org_link" href="/organization">
               Organization
             </a>
