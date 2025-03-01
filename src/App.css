@@ -99,9 +99,8 @@ nav {
   }
 
   .btn_container a {
-    font-size: 0.6rem;
+    font-size: 0.7rem;
     padding: 5px;
-    border: 1px solid #575757;
     border: 1px solid #575757;
   }
 
@@ -116,7 +115,6 @@ nav {
   .profile_component {
     order: 2;
     text-decoration: none;
-    border: 1px solid red;
     display: flex;
     justify-content: center;
     align-items: center;
