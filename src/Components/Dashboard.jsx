@@ -11,7 +11,9 @@ function Dashboard() {
     <>
       <NavBar />
       <div className="dashboard_container">
-        <h1>Welcome back, {user?.firstName}!</h1>
+        <h1>
+          Welcome back, <span>{user?.firstName}</span>!
+        </h1>
       </div>
     </>
   );

@@ -21,6 +21,9 @@ body {
 .dashboard_container h1 {
   color: #ffffff;
 }
+.dashboard_container span {
+  color: #c8adff;
+}
 
 header {
   max-width: 1400px;
