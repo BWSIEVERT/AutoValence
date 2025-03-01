@@ -9,6 +9,7 @@ import {
 } from "@clerk/clerk-react";
 import Dashboard from "./Components/Dashboard";
 import OrgPage from "./Components/OrgPage";
+import AccountPage from "./Components/AccountPage";
 
 function App() {
   const FallbackRoute = () => {
@@ -54,6 +55,15 @@ function App() {
         element={
           <>
             <OrgPage />
+          </>
+        }
+      />
+
+      <Route
+        path="/account"
+        element={
+          <>
+            <AccountPage />
           </>
         }
       />
