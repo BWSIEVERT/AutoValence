@@ -80,12 +80,37 @@ nav {
 }
 
 @media screen and (max-width: 480px) {
+  header {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+  }
+
   .title_container {
-    font-size: 0.6rem;
+    display: none;
+  }
+
+  .btn_container {
+    width: 100%;
+    justify-content: space-evenly;
+    margin: 0 30px 0 30px;
+    display: flex;
   }
 
   .btn_container a {
     font-size: 0.6rem;
     padding: 5px;
+  }
+
+  .item1 {
+    order: 1;
+  }
+
+  .item2 {
+    order: 3;
+  }
+
+  .item3 {
+    order: 2;
   }
 }

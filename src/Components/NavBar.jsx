@@ -9,13 +9,15 @@ function Navbar() {
             <h1>AutoValence</h1>
           </div>
           <div className="btn_container">
-            <a className="dashboard_link" href="/">
+            <a className="item1" href="/">
               Dashboard
             </a>
-            <a className="org_link" href="/organization">
+            <a className="item2" href="/organization">
               Organization
             </a>
-            <UserButton />
+            <a className="item3">
+              <UserButton />
+            </a>
           </div>
         </nav>
       </header>
