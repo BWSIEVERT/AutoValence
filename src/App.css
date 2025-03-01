@@ -18,6 +18,10 @@ body {
   margin: 0 auto 0 auto;
 }
 
+.dashboard_container h1 {
+  color: #ffffff;
+}
+
 header {
   max-width: 1400px;
   height: 6vh;
