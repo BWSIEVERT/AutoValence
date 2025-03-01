@@ -1,6 +1,9 @@
 import { UserButton } from "@clerk/clerk-react";
 
 function Navbar() {
+  let viewportWidth = window.innerWidth || document.documentElement.clientWidth;
+  console.log("Viewport Width: " + viewportWidth + " pixels");
+
   return (
     <>
       <header>
@@ -9,15 +12,15 @@ function Navbar() {
             <h1>AutoValence</h1>
           </div>
           <div className="btn_container">
-            <a className="item1" href="/">
+            <a className="dashboard_btn" href="/">
               Dashboard
             </a>
-            <a className="item2" href="/organization">
+            <a className="organization_btn" href="/organization">
               Organization
             </a>
-            <a className="item3">
+            <div className="profile_component">
               <UserButton />
-            </a>
+            </div>
           </div>
         </nav>
       </header>

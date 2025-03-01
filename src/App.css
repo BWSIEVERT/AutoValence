@@ -82,8 +82,9 @@ nav {
 @media screen and (max-width: 480px) {
   header {
     width: 100%;
-    position: absolute;
+    position: fixed;
     bottom: 0;
+    background-color: #282828;
   }
 
   .title_container {
@@ -100,17 +101,24 @@ nav {
   .btn_container a {
     font-size: 0.6rem;
     padding: 5px;
+    border: 1px solid #575757;
+    border: 1px solid #575757;
   }
 
-  .item1 {
+  .dashboard_btn {
     order: 1;
   }
 
-  .item2 {
+  .organization_btn {
     order: 3;
   }
 
-  .item3 {
+  .profile_component {
     order: 2;
+    text-decoration: none;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
