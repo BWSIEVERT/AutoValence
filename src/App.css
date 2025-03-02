@@ -10,19 +10,42 @@ body {
 
 .dashboard_container {
   max-width: 1400px;
-  height: 100vh;
+  height: 90vh;
   background-color: #121212;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   margin: 0 auto 0 auto;
 }
 
-.dashboard_container h1 {
+.dashboard_container h2 {
   color: #ffffff;
 }
 .dashboard_container span {
   color: #c8adff;
+}
+
+.decoder_container {
+  width: 80%;
+  background-color: #282828;
+  border-radius: 10px;
+  margin: 40px auto 0 auto;
+}
+
+.welcome_container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.welcome_container h2 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin: 0 0 0 30px;
+}
+
+.notif_icon {
+  opacity: 60%;
+  margin: 0 30px 0 0;
 }
 
 header {
@@ -45,13 +68,12 @@ nav {
 
 .title_container {
   margin-left: 20px;
-  color: #c8adff;
+  color: #8813b1;
   text-transform: uppercase;
   font-size: 1rem;
 }
 
 .btn_container {
-  width: auto;
   margin-right: 20px;
   display: flex;
   justify-content: space-evenly;
@@ -63,10 +85,8 @@ nav {
   text-decoration: none;
   border: none;
   cursor: pointer;
-  opacity: 60%;
-  text-transform: uppercase;
   line-height: 1rem;
-  color: #9772ff;
+  color: #ffffff;
   font-size: 0.8rem;
   padding: 10px;
   border-radius: 8px;
@@ -75,6 +95,10 @@ nav {
 .btn_container a:hover {
   opacity: 100%;
   background-color: #282828;
+}
+
+.profile_component {
+  padding: 10px;
 }
 
 .organization_container {
@@ -100,6 +124,7 @@ nav {
     position: fixed;
     bottom: 0;
     background-color: #282828;
+    z-index: 99;
   }
 
   .title_container {
@@ -109,7 +134,7 @@ nav {
   .btn_container {
     width: 100%;
     justify-content: space-evenly;
-    margin: 0 30px 0 30px;
+    margin: 0 5px 0 5px;
     display: flex;
   }
 
@@ -138,5 +163,17 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  .decoder_container {
+    width: 90%;
+  }
+
+  .welcome_container h2 {
+    margin: 0 0 0 10px;
+  }
+
+  .notif_icon {
+    margin: 0 10px 0 0;
   }
 }
