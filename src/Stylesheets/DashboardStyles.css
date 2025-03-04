@@ -1,6 +1,6 @@
 .dashboard_container {
   max-width: 1400px;
-  height: 90vh;
+  height: auto;
   background-color: #121212;
   margin: 0 auto 0 auto;
 }

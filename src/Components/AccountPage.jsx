@@ -1,5 +1,5 @@
 import { UserProfile } from "@clerk/clerk-react";
-import Navbar from "./NavBar";
+import Navbar from "./HamburgerComponent";
 
 function AccountPage() {
   return (

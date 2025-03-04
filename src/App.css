@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Lato", serif;
+  text-rendering: optimizeLegibility;
 }
 body {
   background-color: #121212;

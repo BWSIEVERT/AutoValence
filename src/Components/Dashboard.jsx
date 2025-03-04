@@ -1,4 +1,4 @@
-import NavBar from "./NavBar";
+import NavBar from "./HamburgerComponent";
 import "../Stylesheets/DashboardStyles.css";
 
 import { useUser } from "@clerk/clerk-react";
@@ -13,7 +13,7 @@ function Dashboard() {
       <div className="dashboard_container">
         <div className="welcome_container">
           <h2>
-            Welcome back, <span>{user?.firstName}</span>!
+            Welcome back to AutoValence, <span>{user?.firstName}</span>!
           </h2>
           <div className="notif_icon">
             <svg

@@ -1,4 +1,4 @@
-import Navbar from "./NavBar";
+import Navbar from "./HamburgerComponent";
 import "../Stylesheets/OrgPageStyles.css";
 import {
   OrganizationProfile,
