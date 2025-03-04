@@ -77,9 +77,10 @@ h2 {
   margin-top: 5px;
 }
 
-@media screen and (max-wdith: 480px) {
+@media screen and (max-width: 480px) {
   .welcome_container h2 {
     margin: 0 0 0 10px;
+    font-size: 0.8rem;
   }
 
   .notif_icon {
