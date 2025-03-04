@@ -1,0 +1,88 @@
+.dashboard_container {
+  max-width: 1400px;
+  height: 90vh;
+  background-color: #121212;
+  margin: 0 auto 0 auto;
+}
+
+.dashboard_container h2 {
+  color: #ffffff;
+}
+.dashboard_container span {
+  color: #c8adff;
+}
+
+.welcome_container {
+  max-width: 1400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #282828;
+  margin: 2% 5% 2% 5%;
+  border-radius: 8px;
+}
+
+.welcome_container h2 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin: 0 0 0 30px;
+}
+
+.notif_icon {
+  opacity: 60%;
+  margin: 0 30px 0 0;
+}
+
+.intro {
+  max-width: 1400px;
+  height: auto;
+  margin: 2% 5% 2% 5%;
+  background-color: #282828;
+  padding: 30px;
+  border-radius: 8px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin: 40px 0 20px;
+}
+
+/* Key Features list */
+.feature-list {
+  list-style-type: none; /* Remove default bullets */
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.feature-list li {
+  margin-bottom: 20px;
+}
+
+/* Bold title + colon for each feature heading */
+.feature-title {
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+.feature-title::after {
+  content: ":";
+}
+
+.feature-description {
+  margin-top: 5px;
+}
+
+@media screen and (max-wdith: 480px) {
+  .welcome_container h2 {
+    margin: 0 0 0 10px;
+  }
+
+  .notif_icon {
+    margin: 0 10px 0 0;
+  }
+}

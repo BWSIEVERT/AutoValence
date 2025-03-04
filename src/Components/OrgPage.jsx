@@ -1,5 +1,5 @@
 import Navbar from "./NavBar";
-import "../App.css";
+import "../Stylesheets/OrgPageStyles.css";
 import {
   OrganizationProfile,
   useOrganization,

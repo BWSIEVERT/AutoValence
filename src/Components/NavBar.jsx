@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { UserButton, SignOutButton } from "@clerk/clerk-react";
+import "../Stylesheets/NavBarStyles.css";
 
 function Navbar() {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 480);
