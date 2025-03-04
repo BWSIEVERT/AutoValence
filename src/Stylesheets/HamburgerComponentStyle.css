@@ -13,6 +13,10 @@
   margin: 1% 5% 1% 5%;
 }
 
+.hamburger_icon {
+  z-index: 200;
+}
+
 .open {
   position: fixed;
   width: 100%;
@@ -22,6 +26,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  top: 0;
+  left: 0;
 }
 
 .navigation_container {

@@ -9,7 +9,10 @@ function HamburgerComponent() {
     <>
       <header className="header_container">
         <div className="inner_container">
-          <Hamburger size={18} toggled={open} toggle={setOpen} />
+          <div className="hamburger_icon">
+            <Hamburger size={18} toggled={open} toggle={setOpen} />
+          </div>
+
           <UserButton />
         </div>
       </header>
