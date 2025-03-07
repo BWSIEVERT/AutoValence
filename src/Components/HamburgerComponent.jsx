@@ -35,7 +35,7 @@ function HamburgerComponent() {
                 <a href="/">Dashboard</a>
               </li>
               <li>
-                <a href="/">Organization</a>
+                <a href="/organization">Organization</a>
               </li>
             </ul>
           </nav>

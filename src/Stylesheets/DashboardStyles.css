@@ -24,7 +24,7 @@
 }
 
 .welcome_container h2 {
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 400;
   margin: 0 0 0 30px;
 }
@@ -45,11 +45,16 @@
 
 p {
   margin-bottom: 20px;
+  font-size: 0.8rem;
 }
 
 h2 {
-  font-size: 1.5rem;
+  font-size: 1rem;
   margin: 40px 0 20px;
+}
+
+.intro span {
+  font-size: 1rem;
 }
 
 /* Key Features list */
