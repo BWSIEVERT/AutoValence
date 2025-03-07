@@ -30,15 +30,6 @@ function Dashboard() {
           </div>
         </div>
         <section className="intro">
-          <p>
-            AutoValence is an AI-driven platform designed to empower automotive
-            dealerships with data-driven insights for inventory management,
-            pricing optimization, and sales acceleration. By integrating with
-            trusted data sources such as Carfax and AutoCheck, AutoValence
-            provides real-time vehicle data, market intelligence, and actionable
-            recommendations to enhance operational efficiency.
-          </p>
-
           <h2>Key Features</h2>
           <ul className="feature-list">
             <li>
