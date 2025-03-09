@@ -2,6 +2,7 @@ import NavBar from "./HamburgerComponent";
 import "../Stylesheets/DashboardStyles.css";
 
 import { useUser } from "@clerk/clerk-react";
+import FooterComponent from "./FooterComponent";
 
 function Dashboard() {
   const { user } = useUser();
@@ -85,6 +86,7 @@ function Dashboard() {
           </ul>
         </section>
       </div>
+      <FooterComponent />
     </>
   );
 }
